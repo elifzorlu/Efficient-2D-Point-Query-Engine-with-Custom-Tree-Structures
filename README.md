@@ -45,10 +45,8 @@ For each query point `(x, y)` the program prints:
 - Number of matching rectangles
 - The list of matching rectangles (each as `top left bottom right`)
 
-## Build & Run
-### Build (CMake)
-```bash
-mkdir build
-cd build
-cmake ..
-cmake --build .
+## Usage Overview
+The project demonstrates a quadtree-style spatial indexing structure for efficient
+point-in-rectangle queries. The focus is on data structures, algorithms, and
+correctness rather than production deployment or packaging.
+
